@@ -1,0 +1,15 @@
+{
+  "name": "Sextou",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PedroSeabra/Sextou.git",
+  "author": "Pedro Seabra <pedroseabra98@hotmail.com>, Giuliano Crespe <>",
+  "license": "MIT",
+  "scripts": {
+    "test": "concurrently \"cd backend && yarn run test\" \"cd frontend && yarn start\" ",
+    "dev": "concurrently \"cd backend && yarn run dev\" \"cd frontend && yarn start\" "
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
